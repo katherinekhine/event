@@ -27,14 +27,12 @@
             </div>
             <div>
                 <ul class="hidden lg:flex items-center space-x-6 uppercase">
-                    <li><a href="#" class="ease-in duration-200">Home</a></li>
-                    <li><a href="#" class="ease-in duration-200">Experiences</a>
+                    <li><a href="index.php" class="ease-in duration-200">Events</a></li>
+                    <li><a href="#" class="ease-in duration-200">Booking</a>
                     </li>
-                    <li><a href="#" class="ease-in duration-200">Skills</a>
+                    <li><a href="#" class="ease-in duration-200">Contact US</a>
                     </li>
-                    <li><a href="#" class="ease-in duration-200">Projects</a>
-                    </li>
-                    <li><a href="#" class="ease-in duration-200">Contact</a>
+                    <li><a href="#" class="ease-in duration-200">Login</a>
                     </li>
                 </ul>
             </div>
@@ -46,15 +44,13 @@
             </div>
             <div id="menu" class="hidden h-[100vh] z-20 absolute inset-0">
                 <ul class="h-full grid place-items-center py-20 uppercase">
-                    <li><a href="#" class="ease-in duration-200 h-link">Home</a>
+                    <li><a href="index.php" class="ease-in duration-200 h-link">Events</a>
                     </li>
-                    <li><a href="#" class="ease-in duration-200 h-link ">Experiences</a>
+                    <li><a href="#" class="ease-in duration-200 h-link ">Booking</a>
                     </li>
-                    <li><a href="#" class="ease-in duration-200 h-link">Skills</a>
+                    <li><a href="#" class="ease-in duration-200 h-link">Contact Us</a>
                     </li>
-                    <li><a href="#" class="ease-in duration-200 h-link">Projects</a>
-                    </li>
-                    <li><a href="#" class="ease-in duration-200 h-link">Contact</a>
+                    <li><a href="#" class="ease-in duration-200 h-link">Login</a>
                     </li>
                 </ul>
             </div>
