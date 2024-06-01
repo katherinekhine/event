@@ -14,3 +14,20 @@ hLink.forEach((link) => {
     faSolid.classList.toggle("fa-xmark");
   });
 });
+
+// scroll reveal animations
+document.addEventListener("DOMContentLoaded", function () {
+  console.log("DOMContentLoaded event fired!");
+  const sr = ScrollReveal({
+    origin: "top",
+    distance: "60px",
+    duration: 3000,
+    delay: 100,
+    reset: true,
+  });
+
+  // home
+  sr.reveal(".home-p-ani", { origin: "left" });
+  sr.reveal(".home-img-ani", { origin: "right" });
+});
+// console.log("ScrollReveal setup complete");
