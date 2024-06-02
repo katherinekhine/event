@@ -28,7 +28,7 @@
             <div>
                 <ul class="hidden lg:flex items-center space-x-6 uppercase">
                     <li><a href="index.php" class="ease-in duration-200">Home</a></li>
-                    <li><a href="#" class="ease-in duration-200">Events</a>
+                    <li><a href="event.php" class="ease-in duration-200">Events</a>
                     <li><a href="#" class="ease-in duration-200">Booking</a>
                     </li>
                     <li><a href="#" class="ease-in duration-200">Contact US</a>
@@ -47,7 +47,7 @@
                 <ul class="h-full grid place-items-center py-20 uppercase bg-color-bg">
                     <li><a href="index.php" class="ease-in duration-200 h-link">Home</a>
                     </li>
-                    <li><a href="#" class="ease-in duration-200 h-link ">Events</a>
+                    <li><a href="event.php" class="ease-in duration-200 h-link ">Events</a>
                     <li><a href="#" class="ease-in duration-200 h-link ">Booking</a>
                     </li>
                     <li><a href="#" class="ease-in duration-200 h-link">Contact Us</a>

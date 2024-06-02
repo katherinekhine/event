@@ -10,10 +10,10 @@
   @apply text-[16px] lg:text-[19px] font-normal leading-snug text-justify;
 }
 
-/* .btn {
-  @apply h-[70px] px-[30px] transition-all duration-300 text-color-bg rounded-[18px] flex items-center gap-2;
+.btn {
+  @apply lg:h-[40px] lg:px-[30px] transition-all duration-300 lg:text-[15px] font-medium text-color-bg rounded-[18px] h-[30px] px-[20px] text-[14px];
 }
 
 .btn-primary {
   @apply bg-color-primary hover:bg-color-secondary;
-} */
+}
