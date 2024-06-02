@@ -29,5 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // home
   sr.reveal(".home-p-ani", { origin: "left" });
   sr.reveal(".home-img-ani", { origin: "right" });
+  //about
+  sr.reveal(".about-img-ani", { origin: "left" });
+  sr.reveal(".about-p-ani", { origin: "right" });
 });
-// console.log("ScrollReveal setup complete");
