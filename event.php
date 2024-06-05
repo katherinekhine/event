@@ -11,7 +11,58 @@ include "components/header.php";
     </form>
 </div>
 
-
+<div class="mt-5 lg:px-20 px-5">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div class="flex flex-col justify-center items-center px-3 border border-color-primary">
+            <div class="py-2">
+                <img src="img/home.png" alt="" class="rounded-md hover:scale-105 ease-linear duration-200 ">
+            </div>
+            <div>
+                <h3 class="h3 text-color-primary text-center">Artistic Adventures</h3>
+                <p class="p mt-2">Discover a myriad of creative experiences with our partnered Art Club. Explore captivating art exhibitions, attend hands-on workshops, and engage with local artists as they showcase their talents. Whether you're a seasoned artist or simply appreciate the beauty of art, our curated selection of art events offers something for everyone to enjoy.</p>
+            </div>
+            <div class="my-4">
+                <button class="btn btn-primary"><a href="#"></a>Join</button>
+            </div>
+        </div>
+        <div class="flex flex-col justify-center items-center px-3 border border-color-primary">
+            <div class="py-2">
+                <img src="img/home.png" alt="" class="rounded-md hover:scale-105 ease-linear duration-200 ">
+            </div>
+            <div>
+                <h3 class="h3 text-color-primary text-center">Artistic Adventures</h3>
+                <p class="p mt-2">Discover a myriad of creative experiences with our partnered Art Club. Explore captivating art exhibitions, attend hands-on workshops, and engage with local artists as they showcase their talents. Whether you're a seasoned artist or simply appreciate the beauty of art, our curated selection of art events offers something for everyone to enjoy.</p>
+            </div>
+            <div class="my-4">
+                <button class="btn btn-primary"><a href="#"></a>Join</button>
+            </div>
+        </div>
+        <div class="flex flex-col justify-center items-center px-3 border border-color-primary">
+            <div class="py-2">
+                <img src="img/home.png" alt="" class="rounded-md hover:scale-105 ease-linear duration-200 ">
+            </div>
+            <div>
+                <h3 class="h3 text-color-primary text-center">Artistic Adventures</h3>
+                <p class="p mt-2">Discover a myriad of creative experiences with our partnered Art Club. Explore captivating art exhibitions, attend hands-on workshops, and engage with local artists as they showcase their talents. Whether you're a seasoned artist or simply appreciate the beauty of art, our curated selection of art events offers something for everyone to enjoy.</p>
+            </div>
+            <div class="my-4">
+                <button class="btn btn-primary"><a href="#"></a>Join</button>
+            </div>
+        </div>
+        <div class="flex flex-col justify-center items-center px-3 border border-color-primary">
+            <div class="py-2">
+                <img src="img/home.png" alt="" class="rounded-md hover:scale-105 ease-linear duration-200 ">
+            </div>
+            <div>
+                <h3 class="h3 text-color-primary text-center">Artistic Adventures</h3>
+                <p class="p mt-2">Discover a myriad of creative experiences with our partnered Art Club. Explore captivating art exhibitions, attend hands-on workshops, and engage with local artists as they showcase their talents. Whether you're a seasoned artist or simply appreciate the beauty of art, our curated selection of art events offers something for everyone to enjoy.</p>
+            </div>
+            <div class="my-4">
+                <button class="btn btn-primary"><a href="#"></a>Join</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <?php
