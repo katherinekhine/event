@@ -32,4 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
   //about
   sr.reveal(".about-img-ani", { origin: "left" });
   sr.reveal(".about-p-ani", { origin: "right" });
+  // event
+  sr.reveal(".event-search-ani");
+  sr.reveal(".event-ani", { origin: "bottom" });
 });
