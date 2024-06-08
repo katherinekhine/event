@@ -33,7 +33,7 @@
                     </li>
                     <li><a href="#" class="ease-in duration-200">Contact US</a>
                     </li>
-                    <li><a href="#" class="ease-in duration-200">Login</a>
+                    <li><a href="login.php" class="ease-in duration-200">Login</a>
                     </li>
                 </ul>
             </div>
@@ -52,7 +52,7 @@
                     </li>
                     <li><a href="#" class="ease-in duration-200 h-link">Contact Us</a>
                     </li>
-                    <li><a href="#" class="ease-in duration-200 h-link">Login</a>
+                    <li><a href="login.php" class="ease-in duration-200 h-link">Login</a>
                     </li>
                 </ul>
             </div>
