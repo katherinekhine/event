@@ -23,7 +23,6 @@ document.addEventListener("DOMContentLoaded", function () {
     distance: "60px",
     duration: 3000,
     delay: 100,
-    reset: true,
   });
 
   // home

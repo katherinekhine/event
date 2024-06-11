@@ -1,5 +1,5 @@
 <?php
-include "components/header.php";
+include "../components/header.php";
 ?>
 
 <div class="mt-20 lg:px-20 px-5">
@@ -19,7 +19,3 @@ include "components/header.php";
         </form>
     </div>
 </div>
-
-<?php
-include "components/footer.php";
-?>

@@ -1,16 +1,16 @@
 <?php
-include "components/header.php";
+include "../components/header.php";
 ?>
 
 <?php
-include "components/search-bar.php";
+include "../components/search-bar.php";
 ?>
 
-<div class="mt-5 lg:px-20 px-5">
+<div class="mt-5 lg:px-20 px-5 mb-5">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 event-ani">
         <div class="flex flex-col justify-center items-center px-3 border border-color-primary hover:border-color-primary hover:shadow-lg hover:shadow-color-primary">
             <div class="py-2">
-                <img src="img/event-1.png" alt="" class="rounded-md hover:scale-105 ease-linear duration-200">
+                <img src="../img/event-1.png" alt="" class="rounded-md hover:scale-105 ease-linear duration-200">
             </div>
             <div>
                 <h3 class="h3 text-color-primary text-center">Artistic Adventures</h3>
@@ -22,7 +22,7 @@ include "components/search-bar.php";
         </div>
         <div class="flex flex-col justify-center items-center px-3 border border-color-primary hover:border-color-primary hover:shadow-lg hover:shadow-color-primary">
             <div class="py-2">
-                <img src="img/event-2.png" alt="" class="rounded-md hover:scale-105 ease-linear duration-200 ">
+                <img src="../img/event-2.png" alt="" class="rounded-md hover:scale-105 ease-linear duration-200 ">
             </div>
             <div>
                 <h3 class="h3 text-color-primary text-center">Music Club</h3>
@@ -34,7 +34,7 @@ include "components/search-bar.php";
         </div>
         <div class="flex flex-col justify-center items-center px-3 border border-color-primary hover:border-color-primary hover:shadow-lg hover:shadow-color-primary">
             <div class="py-2">
-                <img src="img/event-3.png" alt="" class="rounded-md hover:scale-105 ease-linear duration-200 ">
+                <img src="../img/event-3.png" alt="" class="rounded-md hover:scale-105 ease-linear duration-200 ">
             </div>
             <div>
                 <h3 class="h3 text-color-primary text-center">English Community Club</h3>
@@ -46,7 +46,7 @@ include "components/search-bar.php";
         </div>
         <div class="flex flex-col justify-center items-center px-3 border border-color-primary hover:border-color-primary hover:shadow-lg hover:shadow-color-primary">
             <div class="py-2">
-                <img src="img/event-4.png" alt="" class="rounded-md hover:scale-105 ease-linear duration-200 ">
+                <img src="../img/event-4.png" alt="" class="rounded-md hover:scale-105 ease-linear duration-200 ">
             </div>
             <div>
                 <h3 class="h3 text-color-primary text-center">Engaging Book Discussions</h3>
@@ -61,5 +61,5 @@ include "components/search-bar.php";
 
 
 <?php
-include "components/footer.php";
+include "../components/footer.php";
 ?>

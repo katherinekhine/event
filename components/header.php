@@ -10,9 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="../src/style.css">
     <!-- Output CSS -->
-    <link rel="stylesheet" href="src/output.css?<?php echo time(); ?>">
+    <link rel="stylesheet" href="../src/output.css?<?php echo time(); ?>">
     <!-- Font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <!-- Remix Icon -->
@@ -60,9 +60,9 @@
     </header>
 
     <!-- custom js -->
-    <script src="js/main.js"></script>
+    <script src="../js/main.js"></script>
     <!-- scroll reveal js -->
-    <script src="js/scrollreveal.min.js"></script>
+    <script src="../js/scrollreveal.min.js"></script>
 </body>
 
 </html>
