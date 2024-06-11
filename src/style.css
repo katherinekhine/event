@@ -10,3 +10,8 @@ h5,
 h6 {
   font-family: "Poetsen One";
 }
+
+.bg-color-footer-bg {
+  --tw-bg-opacity: 1;
+  background-color: rgb(7 15 64 / var(--tw-bg-opacity));
+}
