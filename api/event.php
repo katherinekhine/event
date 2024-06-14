@@ -17,7 +17,7 @@ include "../components/search-bar.php";
                 <p class="p mt-2">Discover a myriad of creative experiences with our partnered Art Club. Explore captivating art exhibitions, attend hands-on workshops, and engage with local artists as they showcase their talents. Whether you're a seasoned artist or simply appreciate the beauty of art, our curated selection of art events offers something for everyone to enjoy.</p>
             </div>
             <div class="my-4">
-                <button class="btn btn-primary"><a href="#"></a>Join</button>
+                <button class="btn btn-primary"><a href="category.php">Join</a></button>
             </div>
         </div>
         <div class="flex flex-col justify-center items-center px-3 border border-color-primary hover:border-color-primary hover:shadow-lg hover:shadow-color-primary">
@@ -29,7 +29,7 @@ include "../components/search-bar.php";
                 <p class="p mt-2">Feel the rhythm and connect with fellow music lovers through Music Club. This club is a haven for musicians and enthusiasts alike, offering jam sessions, concerts, and lively discussions about various genres and artists. Whether you play an instrument or simply enjoy listening, the Music Club welcomes you to join their community.</p>
             </div>
             <div class="my-4">
-                <button class="btn btn-primary"><a href="#"></a>Join</button>
+                <button class="btn btn-primary"><a href="category.php">Join</a></button>
             </div>
         </div>
         <div class="flex flex-col justify-center items-center px-3 border border-color-primary hover:border-color-primary hover:shadow-lg hover:shadow-color-primary">
@@ -41,7 +41,7 @@ include "../components/search-bar.php";
                 <p class="p mt-2">Enhance your language skills and make new friends by joining our partnered English Community Club. Ideal for both native speakers and learners, this club hosts a variety of activities including book discussions, conversation groups, and writing workshops. Immerse yourself in the English language and culture while building meaningful connections.</p>
             </div>
             <div class="my-4">
-                <button class="btn btn-primary"><a href="#"></a>Join</button>
+                <button class="btn btn-primary"><a href="category.php">Join</a></button>
             </div>
         </div>
         <div class="flex flex-col justify-center items-center px-3 border border-color-primary hover:border-color-primary hover:shadow-lg hover:shadow-color-primary">
@@ -53,7 +53,7 @@ include "../components/search-bar.php";
                 <p class="p mt-2">Dive deep into captivating stories and thought-provoking narratives with regular discussion meetings. Each session focuses on a different book, and offering members the opportunity to share their thoughts. Engaging in these discussions not only enhances your understanding of the text but also allows you to appreciate diverse viewpoints.</p>
             </div>
             <div class="my-4">
-                <button class="btn btn-primary"><a href="#"></a>Join</button>
+                <button class="btn btn-primary"><a href="category.php">Join</a></button>
             </div>
         </div>
     </div>
