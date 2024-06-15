@@ -34,4 +34,20 @@ document.addEventListener("DOMContentLoaded", function () {
   // event
   sr.reveal(".event-search-ani");
   sr.reveal(".event-ani", { origin: "bottom" });
+
+  //----- FIX Here
+  // Add scroll event when only DOM loaded
+  // instead of using getElementById because header is not id property header is only HTML tag element that why must be use querySelector
+  const scrollHeader = () => {
+    // const header = document.getElementById("header");
+    const header = document.querySelector("header");
+    if (window.scrollY >= 50) {
+      header.classList.add("border-b", "border-color-secondary");
+    } else {
+      header.classList.remove("border-b", "border-color-secondary");
+    }
+  };
+
+  window.addEventListener("scroll", scrollHeader);
+  //----- FIX Here
 });
