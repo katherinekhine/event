@@ -20,7 +20,7 @@
 </head>
 
 <body class="container bg-color-bg text-white">
-    <header class="z-50 sticky top-0 bg-color-bg">
+    <header id="header" class="z-50 sticky top-0 bg-color-bg">
         <nav class="flex justify-between items-center px-5 lg:px-20">
             <div class="w-25 py-5">
                 <a href="#" class="text-lg text-color-primary"><i class="ri-calendar-schedule-fill text-white"></i> GatherGrove</a>

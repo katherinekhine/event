@@ -1,5 +1,5 @@
 <?php
-include "../components/header.php";
+include "components/header.php";
 ?>
 
 <div class="mt-20 lg:px-20 px-5">

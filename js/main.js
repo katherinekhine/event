@@ -15,6 +15,17 @@ hLink.forEach((link) => {
   });
 });
 
+// change background header
+const scrollHeader = () => {
+  const header = document.getElementById("header");
+  if (this.scrollY >= 50) {
+    header.classList.add("border-b", "border-color-secondary");
+  } else {
+    header.classList.remove("border-b", "border-color-secondary");
+  }
+};
+window.addEventListener("scroll", scrollHeader);
+
 // scroll reveal animations
 document.addEventListener("DOMContentLoaded", function () {
   console.log("DOMContentLoaded event fired!");

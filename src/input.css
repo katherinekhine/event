@@ -24,3 +24,7 @@
 .btn-primary {
   @apply bg-color-primary hover:bg-color-secondary;
 }
+
+.btn-back {
+  @apply bg-slate-500 text-color-white hover:bg-slate-400;
+}
