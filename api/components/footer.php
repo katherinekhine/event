@@ -1,4 +1,4 @@
-<footer class=" absolute left-0 w-full  bg-color-footer-bg py-8">
+<footer class="absolute left-0 w-full  bg-color-footer-bg py-8">
     <div class="w-full px-11 lg:px-28 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 items-start gap-5">
         <div>
             <a href="#" class="text-lg text-color-primary"><i class="ri-calendar-schedule-fill text-white text-xl"></i> GatherGrove</a>

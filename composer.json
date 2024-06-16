@@ -1,15 +1,16 @@
 {
-    "name": "hp/event",
-    "description": "\"This is Event\"",
-    "autoload": {
-        "psr-4": {
-            "Hp\\Event\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Khine Shun Lae"
-        }
-    ],
-    "require": {}
+  "name": "hp/event",
+  "description": "\"This is Event\"",
+  "autoload": {
+    "psr-4": {
+      "Hp\\Event\\": "src/",
+      "classes\\": "classes/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Khine Shun Lae"
+    }
+  ],
+  "require": {}
 }

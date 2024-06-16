@@ -31,7 +31,7 @@
                     <li><a href="event.php" class="ease-in duration-200">Events</a>
                     <li><a href="#" class="ease-in duration-200">Booking</a>
                     </li>
-                    <li><a href="#" class="ease-in duration-200">Contact US</a>
+                    <li><a href="contact.php" class="ease-in duration-200">Contact US</a>
                     </li>
                     <li><a href="login.php" class="ease-in duration-200">Login</a>
                     </li>
@@ -50,7 +50,7 @@
                     <li><a href="event.php" class="ease-in duration-200 h-link ">Events</a>
                     <li><a href="#" class="ease-in duration-200 h-link ">Booking</a>
                     </li>
-                    <li><a href="#" class="ease-in duration-200 h-link">Contact Us</a>
+                    <li><a href="contact.php" class="ease-in duration-200 h-link">Contact Us</a>
                     </li>
                     <li><a href="login.php" class="ease-in duration-200 h-link">Login</a>
                     </li>
