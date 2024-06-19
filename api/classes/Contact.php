@@ -1,14 +1,10 @@
 <?php
 
-namespace classes;
+namespace api\classes;
 
-use classes\Database;
+include "../../vendor/autoload.php";
 
-if (!class_exists('classes\Database')) {
-    echo "Contact class not found.<br>";
-} else {
-    echo "Contact class found.<br>";
-}
+use api\classes\Database;
 
 class Contact extends Database
 {

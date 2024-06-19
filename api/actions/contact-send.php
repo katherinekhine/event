@@ -3,9 +3,9 @@
 include "../../vendor/autoload.php";
 echo "Autoload included successfully.<br>";
 
-use classes\Contact;
+use api\classes\Contact;
 
-if (!class_exists('classes\Contact')) {
+if (!class_exists('api\classes\Contact')) {
     echo "Contact class not found.<br>";
 } else {
     echo "Contact class found.<br>";
@@ -14,6 +14,7 @@ if (!class_exists('classes\Contact')) {
 $name = htmlspecialchars(trim($_POST['name']));
 $email = htmlspecialchars(trim($_POST['email']));
 $msg = htmlspecialchars(trim($_POST['msg']));
+
 
 if (empty($name) || empty($email) || empty($msg)) {
     header("location: ../contact.php?error=1");
