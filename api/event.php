@@ -17,7 +17,7 @@ include "components/search-bar.php";
                 <p class="p mt-2">Discover a myriad of creative experiences with our partnered Art Club. Explore captivating art exhibitions, attend hands-on workshops, and engage with local artists as they showcase their talents. Whether you're a seasoned artist or simply appreciate the beauty of art, our curated selection of art events offers something for everyone to enjoy.</p>
             </div>
             <div class="my-4">
-                <button class="btn btn-primary"><a href="category.php">Join</a></button>
+                <a href="category.php" type="button" class="btn btn-primary justify-center items-center flex">Join</a>
             </div>
         </div>
         <div class="flex flex-col justify-center items-center px-3 border border-color-primary hover:border-color-secondary hover:shadow-lg hover:shadow-color-primary">

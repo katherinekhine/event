@@ -24,8 +24,8 @@ include "components/header.php";
                     <p class="p">Hleden, Yangon</p>
                 </div>
             </div>
-            <div class="my-4 text-center">
-                <button class="btn btn-primary"><a href="booking-form.php">Join</a></button>
+            <div class="my-4 flex justify-center">
+                <a href="booking-form.php" type="button" class="btn btn-primary justify-center items-center flex">Join</a>
             </div>
         </div>
         <div class="flex flex-col justify-center px-3 border border-color-primary hover:border-color-secondary hover:shadow-lg hover:shadow-color-primary">
@@ -46,8 +46,8 @@ include "components/header.php";
                     <p class="p">Hleden, Yangon</p>
                 </div>
             </div>
-            <div class="my-4 text-center">
-                <button class="btn btn-primary"><a href="booking-form.php">Join</a></button>
+            <div class="my-4 flex justify-center">
+                <a href="booking-form.php" type="button" class="btn btn-primary justify-center items-center flex">Join</a>
             </div>
         </div>
         <div class="flex flex-col justify-center px-3 border border-color-primary hover:border-color-secondary hover:shadow-lg hover:shadow-color-primary">
@@ -68,8 +68,8 @@ include "components/header.php";
                     <p class="p">Hleden, Yangon</p>
                 </div>
             </div>
-            <div class="my-4 text-center">
-                <button class="btn btn-primary"><a href="booking-form.php">Join</a></button>
+            <div class="my-4 flex justify-center">
+                <a href="booking-form.php" type="button" class="btn btn-primary justify-center items-center flex">Join</a>
             </div>
         </div>
     </div>

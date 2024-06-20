@@ -17,7 +17,7 @@ include "components/header.php";
                 <input type="tel" name="tel" placeholder="Enter Your Phone Number" class="px-3 py-2 rounded lg:w-1/2 lg:mx-auto w-full text-color-bg focus:outline-color-primary focus:outline-1">
             </div>
             <div class="flex flex-row items-center justify-center gap-5">
-                <button class="btn btn-back"><a href="category.php">&lt; Back</a></button>
+                <a href="category.php" type="button" class="btn btn-back flex justify-center items-center">&lt; Back</a>
                 <button type="submit" class="btn btn-primary">Booking</button>
             </div>
         </form>
