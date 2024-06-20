@@ -21,5 +21,5 @@ if (empty($title) || empty($des) || !is_uploaded_file($img['tmp_name'])) {
         'img' => $img_path
     ]);
 
-    header("location: ../index.php");
+    header("location: ../admin.php");
 }

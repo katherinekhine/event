@@ -1,5 +1,5 @@
 <?php
-include "components/header.php";
+include "components/admin-header.php";
 ?>
 
 <h1 class="h1 mt-6 lg:px-20 px-5 text-color-primary">Create Event</h1>

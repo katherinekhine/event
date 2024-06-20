@@ -29,6 +29,7 @@ include "components/search-bar.php";
                     <p class="p mt-2"><?= $event['des'] ?></p>
                 </div>
                 <div class="my-4">
+                    <a href="event-edit.php?id=<?= $event['id'] ?>">Edit</a>
                     <a href="category.php" type="button" class="btn btn-primary justify-center items-center flex">Join</a>
                 </div>
             </div>
