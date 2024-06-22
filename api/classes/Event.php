@@ -2,7 +2,7 @@
 
 namespace api\classes;
 
-include "../../vendor/autoload.php";
+// include "../../vendor/autoload.php";
 
 use api\classes\Database;
 

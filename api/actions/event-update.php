@@ -20,14 +20,14 @@ if (empty($title) || empty($des)) {
         $event->eventUpdate([
             'id' => $id,
             'title' => $title,
-            'desc' => $des,
+            'des' => $des,
             'img' => $img_path,
         ]);
     } else {
         $event->eventUpdate([
             'id' => $id,
             'title' => $title,
-            'desc' => $des,
+            'des' => $des,
         ]);
     }
     header("location: ../admin.php");
