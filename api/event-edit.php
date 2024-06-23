@@ -30,9 +30,9 @@ include "components/admin-header.php";
                 </div>
                 <div class="my-5">
                     <input type="file" name="img" class="outline outline-1 w-full">
-                    <img src="../<?= $event->img ?>" alt="">
+                    <img src="../<?= $event->img ?>" alt="" class="w-[400px] mt-3">
                 </div>
-                <div class="">
+                <div class="flex items-center gap-4">
                     <a href="admin.php" type="button" class="btn btn-back flex justify-center items-center">&lt; Back</a>
                     <button type="submit" class="btn btn-primary">Edit</button>
                 </div>

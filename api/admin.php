@@ -28,7 +28,7 @@ include "components/search-bar.php";
                     <h3 class="h3 text-color-primary text-center"><?= $event['title'] ?></h3>
                     <p class="p mt-2"><?= $event['des'] ?></p>
                 </div>
-                <div class="my-4">
+                <div class="my-4 flex gap-3 items-center">
                     <a href="event-edit.php?id=<?= $event['id'] ?>">Edit</a>
                     <a href="category.php" type="button" class="btn btn-primary justify-center items-center flex">Join</a>
                 </div>
