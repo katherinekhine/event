@@ -10,7 +10,7 @@ $des = htmlspecialchars(trim($_POST['des']));
 $img = $_FILES['img'];
 
 if (empty($title) || empty($des)) {
-    header("location: ../event-update.php?id=$id&error=1");
+    header("location: ../event-edit.php?id=$id&error=1");
 } else {
     $event = new Event();
 
