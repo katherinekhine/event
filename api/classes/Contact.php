@@ -2,7 +2,7 @@
 
 namespace api\classes;
 
-include "../../vendor/autoload.php";
+// include "../../vendor/autoload.php";
 
 use api\classes\Database;
 
@@ -18,5 +18,13 @@ class Contact extends Database
             ':msg' => $data['msg']
         ]);
         return $result->rowCount();
+    }
+
+    public function contactShow()
+    {
+        $query = "SELECT * FROM contact";
+        $result = $this->connect()->prepare($query);
+        $result->execute();
+        return $result->fetchAll();
     }
 }
