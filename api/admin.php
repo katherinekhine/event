@@ -29,8 +29,9 @@ include "components/search-bar.php";
                     <p class="p mt-2"><?= $event['des'] ?></p>
                 </div>
                 <div class="my-4 flex gap-3 items-center">
-                    <a href="event-edit.php?id=<?= $event['id'] ?>">Edit</a>
-                    <a href="category.php" type="button" class="btn btn-primary justify-center items-center flex">Join</a>
+                    <a href="category.php" type="button" class="btn btn-primary justify-center items-center flex">Category</a>
+                    <a href="event-edit.php?id=<?= $event['id'] ?>"><i class="fa-solid fa-pen-to-square text-color-primary"></i></a>
+                    <a href="actions/event-delete.php?id=<?= $event['id'] ?>" onclick="return confirm('Are you sure you want to delete')"><i class="fa-solid fa-trash text-color-primary"></i></a>
                 </div>
             </div>
         <?php endforeach; ?>

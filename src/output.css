@@ -794,6 +794,10 @@ video {
   margin-top: 5rem;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -808,10 +812,6 @@ video {
 
 .mt-7 {
   margin-top: 1.75rem;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
 }
 
 .box-border {
@@ -937,6 +937,10 @@ video {
   width: 250px;
 }
 
+.w-\[400px\] {
+  width: 400px;
+}
+
 .w-\[90\%\] {
   width: 90%;
 }
@@ -957,12 +961,8 @@ video {
   width: 100%;
 }
 
-.w-\[100px\] {
-  width: 100px;
-}
-
-.w-\[400px\] {
-  width: 400px;
+.w-\[20px\] {
+  width: 20px;
 }
 
 .flex-shrink {
@@ -1504,12 +1504,12 @@ video {
   gap: 0.75rem;
 }
 
-.gap-5 {
-  gap: 1.25rem;
-}
-
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
