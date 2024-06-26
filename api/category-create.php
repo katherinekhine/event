@@ -8,10 +8,13 @@ include "components/admin-header.php";
         <form action="actions/event-store.php" method="post" enctype="multipart/form-data">
             <?php include "components/error.php"; ?>
             <div class="mb-5">
-                <input type="text" name="title" placeholder="Enter Your Title" class="px-3 py-2 rounded w-full text-color-bg focus:outline-color-primary focus:outline-1">
+                <input type="text" name="time" placeholder="Enter Your Time" class="px-3 py-2 rounded w-full text-color-bg focus:outline-color-primary focus:outline-1">
+            </div>
+            <div class="mb-5">
+                <input type="text" name="location" placeholder="Enter Your Location" class="px-3 py-2 rounded w-full text-color-bg focus:outline-color-primary focus:outline-1">
             </div>
             <div class="my-5">
-                <textarea name="des" class="px-3 py-2 rounded w-full text-color-bg focus:outline-color-primary focus:outline-1" placeholder="Write Your Desctiption"></textarea>
+                <textarea name="detail" class="px-3 py-2 rounded w-full text-color-bg focus:outline-color-primary focus:outline-1" placeholder="Write Your Detail"></textarea>
             </div>
             <div class="my-5">
                 <input type="file" name="img" class="outline outline-1 w-full">
