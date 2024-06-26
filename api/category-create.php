@@ -2,7 +2,7 @@
 include "components/admin-header.php";
 ?>
 
-<h1 class="h1 mt-6 lg:px-20 px-5 text-color-primary">Create Event</h1>
+<h1 class="h1 mt-6 lg:px-20 px-5 text-color-primary">Create Category</h1>
 <div class="mt-5 lg:px-20 px-5">
     <div>
         <form action="actions/event-store.php" method="post" enctype="multipart/form-data">
@@ -17,7 +17,7 @@ include "components/admin-header.php";
                 <input type="file" name="img" class="outline outline-1 w-full">
             </div>
             <div class="flex items-center gap-4">
-                <a href="admin.php" type="button" class="btn btn-back flex justify-center items-center">&lt; Back</a>
+                <a href="admin-category.php" type="button" class="btn btn-back flex justify-center items-center">&lt; Back</a>
                 <button type="submit" class="btn btn-primary">Create</button>
             </div>
         </form>
