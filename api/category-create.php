@@ -5,8 +5,11 @@ include "components/admin-header.php";
 <h1 class="h1 mt-6 lg:px-20 px-5 text-color-primary">Create Category</h1>
 <div class="mt-5 lg:px-20 px-5">
     <div>
-        <form action="actions/event-store.php" method="post" enctype="multipart/form-data">
+        <form action="actions/category-store.php" method="post" enctype="multipart/form-data">
             <?php include "components/error.php"; ?>
+            <div class="my-5">
+                <input type="hidden" name="event_id" value="<?= $event['event_id'] ?>">
+            </div>
             <div class="mb-5">
                 <input type="text" name="time" placeholder="Enter Your Time" class="px-3 py-2 rounded w-full text-color-bg focus:outline-color-primary focus:outline-1">
             </div>

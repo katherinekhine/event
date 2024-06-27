@@ -34,7 +34,7 @@ include "components/admin-header.php";
                     <p class="p mt-2"><?= $event['des'] ?></p>
                 </div>
                 <div class="my-4 flex gap-3 items-center">
-                    <a href="admin-category.php" type="button" class="btn btn-primary justify-center items-center flex">Category</a>
+                    <a href="admin-category.php?id=<?= $event['id'] ?>" type="button" class="btn btn-primary justify-center items-center flex">Category</a>
                     <a href="event-edit.php?id=<?= $event['id'] ?>"><i class="fa-solid fa-pen-to-square text-green-600"></i></a>
                     <a href="actions/event-delete.php?id=<?= $event['id'] ?>" onclick="return confirm('Are you sure you want to delete')"><i class="fa-solid fa-trash text-red-600"></i></a>
                 </div>
