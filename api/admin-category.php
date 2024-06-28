@@ -29,7 +29,7 @@ include "components/admin-header.php";
                 </div>
             </div>
             <div class="my-4 flex gap-3 items-center justify-center">
-                <a href="#"><i class="fa-solid fa-pen-to-square text-green-600"></i></a>
+                <a href="category-edit.php"><i class="fa-solid fa-pen-to-square text-green-600"></i></a>
                 <a href="#" onclick="return confirm('Are you sure you want to delete')"><i class="fa-solid fa-trash text-red-600"></i></a>
             </div>
         </div>
